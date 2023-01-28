@@ -19,18 +19,20 @@ The visualizations provided in this repository are intended to serve as examples
 
 ### [View Examples Library &rarr;](src/examples)
 
-# Getting Started
 
-1. [Ensure you have Yarn installed.](https://yarnpkg.com)
-2. Run `yarn`
-3. :boom: start creating!
-
-# Commands
+# Groups
 
 * `yarn build` - Compiles the code in `/src` to `/dist` via webpack
 * `yarn lint` - Runs TSLint across the codebase.
 * `yarn lint-fix` - Runs TSLint and attempts to fix any linter errors automatically.
 
+# Navigation
+
+[![looker](https://custom-icon-badges.demolab.com/badge/operation%20type%20pay—out-ffffff.svg?logo=fold-up_11)](https://look.ecpdss.net/dashboards/8281 "подсчет количества операций типа pay-out по условиям указанным в тайтле asf")
+[![looker](https://custom-icon-badges.demolab.com/badge/operation%20type%20pay—in-ffffff.svg?logo=fold-down_22)](https://look.ecpdss.net/dashboards/8281 "подсчет количества операций типа pay-in по условиям указанным в тайтле asf")
+
+[![looker](https://custom-icon-badges.demolab.com/badge/analytics%20User+Can-ffffff.svg?logo=bar-chart-2-line_22)](https://look.ecpdss.net/dashboards/8281 "аналитика по срезам юзера и платежного средства")
+[![looker](https://custom-icon-badges.demolab.com/badge/analytics%20per%20decline/success%20transactions-ffffff.svg?logo=table-line_22)](https://look.ecpdss.net/dashboards/8281 "аналитика по срезам юзера и платежного средства")
 
 ----
 
