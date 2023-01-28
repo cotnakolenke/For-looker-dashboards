@@ -22,9 +22,10 @@ The visualizations provided in this repository are intended to serve as examples
 
 # Groups
 
-* `yarn build` - Compiles the code in `/src` to `/dist` via webpack
-* `yarn lint` - Runs TSLint across the codebase.
-* `yarn lint-fix` - Runs TSLint and attempts to fix any linter errors automatically.
+* `merchant_Can ` - Compiles the code in `/src` to `/dist` via webpack
+* `merchant_user` - Runs TSLint across the codebase.
+* `merchant_ip` - Runs TSLint and attempts to fix any linter errors automatically.
+* `merchant_Email` - Runs TSLint and attempts to fix any linter errors automatically.
 
 # Navigation
 
