@@ -6,10 +6,10 @@ The visualizations provided in this repository are intended to serve as examples
 ----
 
 # Looker Visualization API Examples 
-[![looker](https://custom-icon-badges.demolab.com/badge/count-analytics%20per%20wallet-blue.svg?logo=line-chart-line_224)](https://look.ecpdss.net/dashboards/8281 "Dev Pro Tips Discussion & Support Server")
-[![looker](https://custom-icon-badges.demolab.com/badge/count-analytics%20per%20cards-blue.svg?logo=line-chart-line_224)](https://look.ecpdss.net/dashboards/8281 "Dev Pro Tips Discussion & Support Server")
-[![looker](https://custom-icon-badges.demolab.com/badge/sum-analytics%20per%20wallet-blue.svg?logo=line-chart-line_224)](https://look.ecpdss.net/dashboards/8281 "Dev Pro Tips Discussion & Support Server")
-[![looker](https://custom-icon-badges.demolab.com/badge/sum-analytics%20per%20cards-blue.svg?logo=line-chart-line_224)](https://look.ecpdss.net/dashboards/8281 "Dev Pro Tips Discussion & Support Server")
+[![looker](https://custom-icon-badges.demolab.com/badge/count-analytics%20per%20wallet-blue.svg?logo=line-chart-line_224)](https://look.ecpdss.net/dashboards/8281 "Дашборд на подсчет количества элементов по кошелькам")
+[![looker](https://custom-icon-badges.demolab.com/badge/count-analytics%20per%20cards-blue.svg?logo=line-chart-line_224)](https://look.ecpdss.net/dashboards/8281 "Дашборд на подсчет количества элементов по картам")
+[![looker](https://custom-icon-badges.demolab.com/badge/sum-analytics%20per%20wallet-blue.svg?logo=pie-chart-line_22)](https://look.ecpdss.net/dashboards/8281 "Дашборд на подсчет суммы по кошелькам")
+[![looker](https://custom-icon-badges.demolab.com/badge/sum-analytics%20per%20cards-blue.svg?logo=pie-chart-line_22)](https://look.ecpdss.net/dashboards/8281 "Дашборд на подсчет суммы по картам")
 
 [Looker](https://looker.com/)'s Visualization API provides a simple JavaScript interface to creating powerful, customizable visualizations that seamlessly integrate into your data applications. :bar_chart: :chart_with_downwards_trend: :chart_with_upwards_trend:
 
