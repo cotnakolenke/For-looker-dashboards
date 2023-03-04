@@ -1,0 +1,47 @@
+<div data-target="readme-toc.content" class="Box mt-3 position-relative" style='background-color: #FFFFFF; text-align: left; padding: 7px 2px; border: solid 1px #ededed; border-radius: 10px;'>
+      
+
+        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
+<h1 dir="auto"><a id="user-content-looker-visualization-api-examples" class="anchor" aria-hidden="true" href="#looker-visualization-api-examples"></a>Anomaly Detection per ALL Methods</h1>
+<p dir="auto"><a href="https://look.ecpdss.net/dashboards/8761" target="_blank" title="Дашборд на подсчет количества элементов по кошелькам" rel="nofollow"><img src="https://camo.githubusercontent.com/2ef4075e60c30ad55106a82813408082ad053b1fe7a0da2baff22205b0d5b4e7/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f636f756e742d616e616c797469637325323070657225323077616c6c65742d626c75652e7376673f6c6f676f3d6c696e652d63686172742d6c696e655f323234" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/count-analytics%20per%20wallet-blue.svg?logo=line-chart-line_224" style="max-width: 100%;"></a>
+<a article id="part_reverse_1" href="https://look.ecpdss.net/dashboards/8281" target="_blank" title="Дашборд на подсчет количества элементов по картам" rel="nofollow"><img src="https://camo.githubusercontent.com/e6f1f7a8110139377d5f1ee6553b31d0b2f7a6b6d65fd2cc5542c5da59b32c75/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f636f756e742d616e616c797469637325323070657225323063617264732d626c75652e7376673f6c6f676f3d6c696e652d63686172742d6c696e655f323234" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/count-analytics%20per%20cards-blue.svg?logo=line-chart-line_224" style="max-width: 100%;"></a>
+<a href="https://look.ecpdss.net/dashboards/8251" target="_blank" title="Дашборд на подсчет суммы по кошелькам" rel="nofollow"><img src="https://camo.githubusercontent.com/052cff20a01cd1479173ea84f30ec98b189cb0bf503d910c2982add52943b610/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f73756d2d616e616c797469637325323070657225323077616c6c65742d626c75652e7376673f6c6f676f3d7069652d63686172742d6c696e655f3232" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/sum-analytics%20per%20wallet-blue.svg?logo=pie-chart-line_22" style="max-width: 100%;"></a>
+<a href="https://look.ecpdss.net/dashboards/8151" target="_blank" title="Дашборд на подсчет суммы по картам" rel="nofollow"><img src="https://camo.githubusercontent.com/74e8b0dedaae52b5b841116893011094bed040f4e9d204e41b8dc2a8600c581c/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f73756d2d616e616c797469637325323070657225323063617264732d626c75652e7376673f6c6f676f3d7069652d63686172742d6c696e655f3232" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/sum-analytics%20per%20cards-blue.svg?logo=pie-chart-line_22" style="max-width: 100%;"></a></p>
+<br>
+<p dir="auto"> This dashboard is essential to identify traffic anomalies and immediately escalate when an incident is detected. All calculations are mainly based on the example of <a href="https://confluence.ecommpay.com/pages/viewpage.action?pageId=82905915" title="ссылка на описание asf-функций" target="_blank" rel="nofollow">RCS ASF-Functions</a>. <g-emoji class="g-emoji" alias="bar_chart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png">📊</g-emoji> <g-emoji class="g-emoji" alias="chart_with_downwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c9.png">📉</g-emoji> <g-emoji class="g-emoji" alias="chart_with_upwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c8.png">📈</g-emoji></p>
+<h3 dir="auto"><a id="user-content-getting-started-guide-" class="anchor" aria-hidden="true" href="#getting-started-guide-"></a><a href="https://confluence.innercorp.net/pages/viewpage.action?pageId=12814467" title="ссылка на процедуру по работе с дашбордом" target="_blank">Getting Started Guide →</a></h3>
+<h3 dir="auto"><a id="user-content-visualization-api-reference-" class="anchor" aria-hidden="true" href="#visualization-api-reference-"></a><a href="https://confluence.ecommpay.com/pages/viewpage.action?pageId=82905915" title="ссылка на описание asf-функций" target="_blank"> RCS ASF-Functions →</a></h3>
+<h1 dir="auto"><a id="user-content-groups" class="anchor" aria-hidden="true" href="#groups"></a>Grouping data</h1>
+
+<ul dir="auto">
+
+<li>
+<a title="срез мерчант - платежное средство пользователя" rel="nofollow"><img src="https://camo.githubusercontent.com/3e5df3adbb0bbddc44f40db14f1abdd1e76964af2f65c4a7842e853ec314523f/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f6d65726368616e7425453225383025393443616e2d6566663166332e737667" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/merchant%E2%80%94Can-eff1f3.svg" style="max-width: 100%;"></a> — grouping by <a title="мерчант" rel="nofollow"><img src="https://camo.githubusercontent.com/9314087e121ff18c0c571ccddad21388de1ef83482480889c0595d6beac6c37e/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f6d65726368616e742d6566663166332e737667" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/merchant-eff1f3.svg" style="max-width: 100%;"></a>  and <a title="платежное средство пользователя" rel="nofollow"><img src="https://camo.githubusercontent.com/c53072508ff26befda0409e4270c2218543e0b7f4f1640f7f4c5a6b6ac724bce/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f637573746f6d65725f6163636f756e745f6e756d6265722d6566663166332e737667" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/customer_account_number-eff1f3.svg" style="max-width: 100%;"></a>.
+</li>
+<br>
+<li>
+<a title="срез мерчант - пользователь" rel="nofollow"><img src="https://camo.githubusercontent.com/58d2ce15265c0f57ebbdf646b9fec01525468de116aca6f475b9019e281f7355/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f6d65726368616e74254532253830253934757365722d6566663166332e737667" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/merchant%E2%80%94user-eff1f3.svg" style="max-width: 100%;"></a> — grouping by <a title="мерчант" rel="nofollow"><img src="https://camo.githubusercontent.com/9314087e121ff18c0c571ccddad21388de1ef83482480889c0595d6beac6c37e/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f6d65726368616e742d6566663166332e737667" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/merchant-eff1f3.svg" style="max-width: 100%;"></a>  and <a title="пользователь" rel="nofollow"><img src="https://camo.githubusercontent.com/4ae87fb535bc0a22d9616e5dddd56837f429db1946e57d3999453dfbac7b45a4/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f757365722d6566663166332e737667" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/user-eff1f3.svg" style="max-width: 100%;"></a>.
+</li>
+
+
+</ul>
+
+<br>
+
+
+<h1 dir="auto"><a id="user-content-navigation" class="anchor" aria-hidden="true" href="#navigation"></a>Navigation</h1>
+<a href="#part1" title="Графики по суммам для отслеживания общего потока платежей и обнаружения аномалий" rel="nofollow"><img src="https://camo.githubusercontent.com/93272fcbdccbd683193c71af4d1305076e3ce1de865f9501a90cf83a402a46f8/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f636f6d6d6f6e253230616e616c79746963732532306279253230616d6f756e74732d6666666666662e7376673f6c6f676f3d67726170685f323232" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/common%20analytics%20by%20amounts-ffffff.svg?logo=graph_222" style="max-width: 100%;"></a>
+<a href="#part2" title="Аномалии по суммам сгруппированные по срезам" rel="nofollow"><img src="https://camo.githubusercontent.com/7480f47d506f2eb5a6edbe8e1208769eaf508a6708cec7a05d2ca3d3934a6e2b/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f47726f7570696e672532306d6574726963732d6666666666662e7376673f6c6f676f3d7461626c652d6c696e655f3232" alt="looker" data-canonical-src="https://custom-icon-badges.demolab.com/badge/Grouping%20metrics-ffffff.svg?logo=table-line_22" style="max-width: 100%;"></a>
+
+<br>
+
+<br>
+
+<br>
+
+<hr>
+
+  </div>
+
+    </div>
+	
