@@ -33,8 +33,8 @@ The visualizations provided in this repository are intended to serve as examples
 [![looker](https://custom-icon-badges.demolab.com/badge/operation%20type%20pay—out-ffffff.svg?logo=fold-up_11)](https:dashboards/8281 "подсчет количества операций типа pay-out по условиям указанным в тайтле asf")
 [![looker](https://custom-icon-badges.demolab.com/badge/operation%20type%20pay—in-ffffff.svg?logo=fold-down_22)](https:dashboards/8281 "подсчет количества операций типа pay-in по условиям указанным в тайтле asf")
 
-[![looker](https://custom-icon-badges.demolab.com/badge/analytics%20User+Can-ffffff.svg?logo=bar-chart-2-line_22)](https:dashboards/8281 "аналитика по срезам юзера и платежного средства")
-[![looker](https://custom-icon-badges.demolab.com/badge/analytics%20per%20decline/success%20transactions-ffffff.svg?logo=table-line_22)](https:dashboards/8281 "аналитика по срезам юзера и платежного средства")
+[![looker](https://custom-icon-badges.demolab.com/badge/Total%20User+Can-ffffff.svg?logo=bar-chart-2-line_22)](https:dashboards/8281 "аналитика по срезам юзера и платежного средства")
+[![looker](https://custom-icon-badges.demolab.com/badge/Total%20Analytics-ffffff.svg?logo=table-line_22)](https:dashboards/8281 "Общая аналитика")
 
 ----
 
